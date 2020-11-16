@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-position: center center;
     height: 30em;
+    margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -21,3 +22,101 @@ body {
     font-family: "Playfair Display", sans-serif;
 }
 
+/*---------------------------------------------------------------------Home*/
+.introduction h1 {
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.introduction h1 span {
+    color: #FFDF00;
+}
+
+.introduction h3 {
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.environment h4 {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.environment p {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.special h4 {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.special p {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.application h4 {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-top: 30px;
+    text-align: center;  
+}
+
+.application p {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;   
+}
+
+.form-group label {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------Gallery*/
+
+
+
+/*---------------------------------------------------------------------Footer*/
+.footer-hr {
+    border-color: #fff;
+}
+
+.socialmedia li a {
+    color: #FEF9F6;
+}
+
+/* ----------------------------------------Media Queries */
+@media(max-width: 768px) {
+    .special p {
+        width: 320px;
+    }
+}
