@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans+Condensed:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+body {
+    background-color: #000;
+}
+
+/*---------------------------------------------------------------------Navbar*/
+.header-bg {
+    background: url("../images/sieg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 30em;
+}
+
+.navbar-brand {
+    font-family: "EB Garamond", sans-serif;
+}
+
+.nav-link {
+    font-family: "Playfair Display", sans-serif;
+}
+
