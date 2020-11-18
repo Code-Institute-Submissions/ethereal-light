@@ -1,4 +1,4 @@
-function validate(){
+function validate(contactForm){
     var name = document.getElementById("name").value;
     var message = document.getElementById("message").value;
     var error_message = document.getElementById("error_message");
@@ -17,7 +17,19 @@ function validate(){
         error_message.innerHTML = text;
         return false;
     }
-
+    
+    emailjs.send('gmail', 'template', {
+        "from_name": contactForm.name.value,
+        "message": contactForm.message.value
+    })
     alert("Form Submitted Successfully!")
-    return true;
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;
 }
