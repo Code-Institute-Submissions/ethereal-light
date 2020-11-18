@@ -25,9 +25,10 @@ body {
 /*---------------------------------------------------------------------Home*/
 .introduction h1 {
     text-align: center;
-    font-family: "Open Sans Condensed",sans-serif;
+    font-family: "EB Garamond", sans-serif;
     color: #fff;
     letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 .introduction h1 span {
@@ -42,7 +43,7 @@ body {
 }
 
 .environment h4 {
-    font-family: "Open Sans Condensed",sans-serif;
+    font-family: "Playfair Display", sans-serif;
     color: #fff;
     letter-spacing: 1px;
     text-decoration: underline;
@@ -59,7 +60,7 @@ body {
 }
 
 .special h4 {
-    font-family: "Open Sans Condensed",sans-serif;
+    font-family: "Playfair Display", sans-serif;
     color: #fff;
     letter-spacing: 1px;
     text-decoration: underline;
@@ -79,7 +80,7 @@ body {
 
 /*---------------------------------------------------------------------Form*/
 .application h4 {
-    font-family: "Open Sans Condensed",sans-serif;
+    font-family: "Playfair Display", sans-serif;
     color: #fff;
     letter-spacing: 1px;
     text-decoration: underline;
@@ -95,11 +96,20 @@ body {
     text-align: center;   
 }
 
-.form-group label {
+.input-field input, .input-field textarea {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+}
+
+#error_message {
     font-family: "Open Sans Condensed",sans-serif;
-    color: #fff;
-    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #FFDF00;
     text-align: center;
+    transition: all 0.5s ease;
 }
 
 /*---------------------------------------------------------------------Gallery*/
