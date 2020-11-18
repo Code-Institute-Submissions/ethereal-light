@@ -77,12 +77,13 @@ body {
     width: 500px;
 }
 
+/*---------------------------------------------------------------------Form*/
 .application h4 {
     font-family: "Open Sans Condensed",sans-serif;
     color: #fff;
     letter-spacing: 1px;
     text-decoration: underline;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;  
 }
 
