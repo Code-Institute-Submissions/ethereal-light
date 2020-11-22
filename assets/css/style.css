@@ -172,6 +172,41 @@ body {
   transform: rotateY(0)
 }
 
+.overlay-text {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-content: center;
+    z-index: 50;
+    color: #fff;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+.overlay-text-small {
+    font-size: .3em;
+}
+
+.overlay-text.visible {
+    display: flex;
+    flex-direction: column;
+    animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+    }
+    to {
+        background-color: rgba(0, 0, 0, .8);
+        font-size: 8em;
+    }
+}
+
 .card-front {
     border-color: #000;
     transform: rotateY(180deg);
@@ -205,5 +240,14 @@ body {
 @media(max-width: 768px) {
     .special p {
         width: 320px;
+    }
+
+    .game-container {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .game-info-container {
+        flex-direction: column;
+        align-items: center;
     }
 }
