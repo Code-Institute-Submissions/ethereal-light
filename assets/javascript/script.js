@@ -30,7 +30,7 @@ class AudioController {
         this.gameOverSound.play();
     }
 }
-
+  
 class MixOrMatch {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
