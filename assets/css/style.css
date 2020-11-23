@@ -128,7 +128,7 @@ body {
 
 .game-container {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     perspective: 500px;
 }
@@ -222,7 +222,7 @@ body {
     height: 100%;
 }
 
-.card:hover .astro-card {
+.card.astro-card {
     transform: scale(1.1);
     transition: transform 1s;
 }
