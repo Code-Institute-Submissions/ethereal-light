@@ -1,3 +1,4 @@
+
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('assets/audio/warrior-of-light.mp3');

@@ -27,6 +27,9 @@
 			  <li class="nav-item active">
 				<a class="nav-link" href="game.html">Game<span class="sr-only">(current)</span></a>
 			  </li>
+              <li class="nav-item">
+			    <a class="nav-link" href=" quiz.html">Quiz</a>
+			  </li>
 		    </ul>
 		</div>
 	  </nav>
@@ -36,8 +39,26 @@
     <!--Title-->
         <h1 class="game-title text-center">Mix and Match</h1>
     <!--Start screen-->
-        <div class="overlay-text text-center visible">
-            <p>Click to Start</p>
+        <div>
+            <div class="modal overlay-text visible" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">The Ethereal Light Mix and Match</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body justify-content-center">
+                            <p>Welcome to the Game section of our FC page! <br>Come and play our mini game while waiting to queue into the game!</p>
+                            <p>The classic game of pairs, find and match 2 Astrologian cards before the timer runs down!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Click anywhere to Continue</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     <!--Ending screen-->
         <div id="game-over-text" class="overlay-text text-center">
@@ -52,10 +73,10 @@
         <div class="container game-container justify-content-center">
             <div class="game-info-container">
                 <div class="game-info">
-                    <p>Time<span id="time-remaining">100</span></p>
+                    <p>Time <span id="time-remaining">100</span></p>
                 </div>
                 <div class="game-info">
-                    <p>Flips<span id="flips">0</span></p>
+                    <p>Flips <span id="flips">0</span></p>
                 </div>
             </div>
     <!--Cards-->

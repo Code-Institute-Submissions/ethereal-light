@@ -118,8 +118,19 @@ body {
 }
 
 /*---------------------------------------------------------------------Game*/
-.game-title {
+.modal-title {
+    font-family: "Playfair Display", sans-serif;
+    color: #000;
+}
+
+.modal-body {
     font-family: "Open Sans Condensed",sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+.game-title {
+    font-family: "EB Garamond", sans-serif;
     letter-spacing: 1px;
     text-decoration: underline;
     color: #fff;
