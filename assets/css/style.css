@@ -260,6 +260,37 @@ body {
     transition: transform 1s;
 }
 
+/*---------------------------------------------------------------------Quiz*/
+#question {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top:50px;
+}
+
+.btn-grid {
+    Display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    font-family: "Open Sans Condensed",sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn.correct {
+    background-color: #00B32C;
+}
+
+.btn.wrong {
+    background-color: #FF0000;
+}
+
+
 /*---------------------------------------------------------------------Footer*/
 .footer-hr {
     border-color: #fff;
