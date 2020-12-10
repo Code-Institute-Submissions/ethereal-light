@@ -280,6 +280,11 @@ body {
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: bold;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #000;
+    outline: none;
 }
 
 .btn.correct {
@@ -288,6 +293,10 @@ body {
 
 .btn.wrong {
     background-color: #FF0000;
+}
+
+.hide {
+    Display: none;
 }
 
 

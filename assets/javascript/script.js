@@ -1,4 +1,4 @@
-
+/*---------------------------------------------------------------------Game BGM*/
 class AudioController {
     constructor() {
         this.bgMusic = new Audio('assets/audio/warrior-of-light.mp3');
@@ -31,7 +31,7 @@ class AudioController {
         this.gameOverSound.play();
     }
 }
-  
+/*---------------------------------------------------------------------Game Card*/  
 class MixOrMatch {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
@@ -156,13 +156,13 @@ function ready() {
         });
     });
 }
-
+/*---------------------------------------------------------------------Game*/
 if(document.readyState === 'loading') {
     document.addEventListener('DOMcontentLoaded', ready());
 } else {
     ready();
 }
-
+/*---------------------------------------------------------------------Home Application*/
 function validate(contactForm){
     var name = document.getElementById("name").value;
     var message = document.getElementById("message").value;
