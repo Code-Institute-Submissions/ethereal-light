@@ -323,4 +323,8 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .modal-content {
+        width: 50%;
+    }
 }
