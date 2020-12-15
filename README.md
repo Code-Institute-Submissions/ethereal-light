@@ -45,6 +45,10 @@ we also do endgame stuff for the veteran gamer so we are an overall FC.
    1. [YouTube](https://www.youtube.com/) 
    2. [FFXIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/smartphone_ringtone/)
 
+- ## Testing
+
+- ## Deployment
+
 - ## Tutorials and Credits
    - ### Code
       1. [Bootstrap](https://getbootstrap.com/) For majority of the page like row and column, carousel, video and navbar.
