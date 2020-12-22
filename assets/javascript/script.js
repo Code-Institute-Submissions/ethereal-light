@@ -1,3 +1,4 @@
+/*---------------------------------------------------------------------Tutorial from Youtube - 'Web Dev Simplified' Card Matching Game*/
 /*---------------------------------------------------------------------Game BGM*/
 class AudioController {
     constructor() {
@@ -162,6 +163,8 @@ if(document.readyState === 'loading') {
 } else {
     ready();
 }
+
+
 /*---------------------------------------------------------------------Home Application*/
 function validate(contactForm){
     var name = document.getElementById("name").value;

@@ -1,8 +1,8 @@
 # [The Ethereal Light](url)
-*![](./assets/readme/website-name.png) need to upload a picture of the page title*
+![](./assets/readme/header_photo.png) 
 
-This is a website for FFXIV newcomer and casual gamer that is finding for a friendly and helpful FC, 
-we also do endgame stuff for the veteran gamer so we are an overall FC. 
+This is a website for FinalFantasyXIV newcomer and casual gamer that is finding for a friendly and helpful FC, 
+we also do endgame stuff for the veteran gamer so we are an overall FreeCompany/Guild. 
 
 - ## User Stories
    - ### Visitor 
@@ -55,6 +55,7 @@ we also do endgame stuff for the veteran gamer so we are an overall FC.
       2. [Nav center](https://www.codeply.com/go/qhaBrcWp3v) To center the navigation bar on Desktop and Tablet display.
       3. [Youtube - 'Web Dev Simplified'](https://www.youtube.com/watch?v=28VfzEiJgy4&t=6s&ab_channel=WebDevSimplified) Card Matching Game
       4. [Youtube - 'Web Dev Simplified'](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1048s&ab_channel=WebDevSimplified) Quiz
+      5. [Youtube - 'Coding Market'](https://www.youtube.com/watch?v=WY4rvU4ImgE&ab_channel=CodingMarket) Form
    - ### Content
       [Quiz](http://www.quiz.co.uk/index.php/quiz-categories/sports-games/180-final-fantasy-xiv-quiz) For the quiz question.
    - ### Media
