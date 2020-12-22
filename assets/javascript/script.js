@@ -140,11 +140,11 @@ class MixOrMatch {
     }
 }
 
-function ready() {
-    let overlays = Array.from(document.getElementsByClassName('overlay-text'));
-    let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixOrMatch(100, cards);
+let overlays = Array.from(document.getElementsByClassName('overlay-text')); //make this global
+let cards = Array.from(document.getElementsByClassName('card'));            //make this global
+let game = new MixOrMatch(100, cards);                                      //make this global
 
+function ready() {
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
@@ -200,5 +200,20 @@ function validate(contactForm){
         }
     );
     return false;
+}
+
+
+/*----------------------------------------------Audio Settings Modal*/
+
+var modal = document.getElementById("myModal2");        //get modal
+var audioSetting = document.getElementById("audio-settings");       //audio settings button
+var span = document.getElementsByClassName("close")[0];     //close icon that is inside the modal
+
+audioSetting.onclick = function() {                     //click the audio settings button to bring up the modal
+    modal.style.display = "block";
+}
+
+span.onclick = function() {                             //click the "X" button to close the modal
+    modal.style.display = "none";
 }
 

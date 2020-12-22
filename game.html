@@ -43,7 +43,7 @@
         <div>
             <div id="myModal" class="modal overlay-text visible">
                 <div class="modal-content text-center">
-                    <p class="start-word">Welcome to the Game section of our FC page! <br>Come and play our mini game while waiting to queue into the game! 
+                    <p class="start-word">Welcome to the Game section of our FC page!<br>Come and play our mini game while waiting to queue into the game! 
                     <br>The classic game of pairs, find and match 2 Astrologian cards before the timer runs down!</p>
                 </div>
             </div>
@@ -51,9 +51,13 @@
     <!--Audio Modal-->
         <div>
             <div id="myModal2" class="modal">
-                <div class="modal-content text-center">
-                    <p class="start-word">Welcome to the Game section of our FC page! <br>Come and play our mini game while waiting to queue into the game! 
-                    <br>The classic game of pairs, find and match 2 Astrologian cards before the timer runs down!</p>
+                <div class="modal-content text-center audio-modal">
+                    <span class="text-left close"><i class="fas fa-times"></i></span>
+                    <h3>Audio Settings</h3>
+                    <p>Volume</p>
+                    <input type="range" value="50" min="0" max="100" step="1" id="music-volume-slider" class="slider" name="music-volume">
+                    <br>
+                    <p>Toggle Background Music</p><br><button class="w-50 mx-auto" onclick="muteMusic()">ON</button>
                 </div>
             </div>
         </div>
@@ -62,7 +66,6 @@
             <div id="game-over-text" class="modal overlay-text">
                 <div class="modal-content text-center">
                     <p class="end-word">Game Over</p>
-                    
                 </div>
             </div>
         </div>
@@ -79,7 +82,7 @@
                 <div class="game-info">
                     <p>Time <span id="time-remaining">100</span></p>
                 </div>
-                <div>
+                <div id="audio-settings">
                     <i class="fas fa-music"></i>
                 </div>
                 <div class="game-info">

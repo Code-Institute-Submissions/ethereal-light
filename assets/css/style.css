@@ -299,6 +299,13 @@ body {
     transition: transform 1s;
 }
 
+.audio-modal h3, p {
+    font-family: "Open Sans Condensed",sans-serif;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 30px;
+}
+
 /*---------------------------------------------------------------------Quiz*/
 #question {
     font-family: "Playfair Display", sans-serif;
