@@ -1,3 +1,4 @@
+/*---------------------------------------------------------------------Tutorial from Youtube - 'Web Dev Simplified'*/
 /*---------------------------------------------------------------------Quiz*/
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')

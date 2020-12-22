@@ -164,7 +164,7 @@ if(document.readyState === 'loading') {
     ready();
 }
 
-
+/*---------------------------------------------------------------------Tutorial from Youtube - 'Coding Market' and codeinstitute*/
 /*---------------------------------------------------------------------Home Application*/
 function validate(contactForm){
     var name = document.getElementById("name").value;
