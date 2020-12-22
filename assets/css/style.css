@@ -78,6 +78,28 @@ body {
     width: 500px;
 }
 
+.entertainment h4 {
+    font-family: "Playfair Display", sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.entertainment p {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.entertainment p a {
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #FFDF00;
+}
+
 /*---------------------------------------------------------------------Form*/
 .application h4 {
     font-family: "Playfair Display", sans-serif;
