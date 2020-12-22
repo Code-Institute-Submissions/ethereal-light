@@ -1,8 +1,9 @@
 # [The Ethereal Light](url)
 ![](./assets/readme/header_photo.png) 
 
-This is a website for FinalFantasyXIV newcomer and casual gamer that is finding for a friendly and helpful FC, 
-we also do endgame stuff for the veteran gamer so we are an overall FreeCompany/Guild. 
+This is a website for FinalFantasyXIV newcomer and casual gamer that is finding for a friendly and helpful FreeCompany, 
+we also do endgame stuff for the veteran gamer so we are an overall FreeCompany/Guild. We also have a matching game and quiz to play in the
+website so feel free to come and play! For people that doesn't know, FC means FreeCompany and it's the same as a guild in all other games.
 
 - ## User Stories
    - ### Visitor 
@@ -10,7 +11,7 @@ we also do endgame stuff for the veteran gamer so we are an overall FreeCompany/
       2. To get to know what is the environment of this FC.
       3. Send application to the FC.
       4. Play a game while waiting.
-      5. Test how good is your FFXIV knowledge.
+      5. Test how good is your FinalFantasyXIV knowledge.
 
 - ## Design
    - ### Color Theme

@@ -23,6 +23,11 @@ body {
 }
 
 /*---------------------------------------------------------------------Home*/
+.audiobtn {
+    color: #fff;
+    text-align: center;
+}
+
 .introduction h1 {
     text-align: center;
     font-family: "EB Garamond", sans-serif;
@@ -199,6 +204,18 @@ body {
     letter-spacing: 1px;
     color: #fff;
     font-size: 30px;
+}
+
+.fa-music {
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #fff;
+    padding: 5px;;
+}
+
+.fa-music:hover {
+    color: #FFDF00;
+    border: 0;
 }
 
 .card {

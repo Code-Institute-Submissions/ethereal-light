@@ -37,11 +37,20 @@
 
     <section>
     <!--Title-->
-        <h1 class="game-title text-center">Mix and Match</h1>
+        <h1 class="game-title text-center">Mix and Match</h1> 
     <!--Tutorial from Youtube - 'Web Dev Simplified'-->
     <!--Start screen-->
         <div>
             <div id="myModal" class="modal overlay-text visible">
+                <div class="modal-content text-center">
+                    <p class="start-word">Welcome to the Game section of our FC page! <br>Come and play our mini game while waiting to queue into the game! 
+                    <br>The classic game of pairs, find and match 2 Astrologian cards before the timer runs down!</p>
+                </div>
+            </div>
+        </div>
+    <!--Audio Modal-->
+        <div>
+            <div id="myModal2" class="modal">
                 <div class="modal-content text-center">
                     <p class="start-word">Welcome to the Game section of our FC page! <br>Come and play our mini game while waiting to queue into the game! 
                     <br>The classic game of pairs, find and match 2 Astrologian cards before the timer runs down!</p>
@@ -53,6 +62,7 @@
             <div id="game-over-text" class="modal overlay-text">
                 <div class="modal-content text-center">
                     <p class="end-word">Game Over</p>
+                    
                 </div>
             </div>
         </div>
@@ -68,6 +78,9 @@
             <div class="game-info-container">
                 <div class="game-info">
                     <p>Time <span id="time-remaining">100</span></p>
+                </div>
+                <div>
+                    <i class="fas fa-music"></i>
                 </div>
                 <div class="game-info">
                     <p>Flips <span id="flips">0</span></p>
