@@ -54,10 +54,14 @@
                 <div class="modal-content text-center audio-modal">
                     <span class="text-left close"><i class="fas fa-times"></i></span>
                     <h3>Audio Settings</h3>
-                    <p>Volume</p>
-                    <input type="range" value="50" min="0" max="100" step="1" id="music-volume-slider" class="slider" name="music-volume">
+                    <p>Background Volume</p>
+                    <input type="range" value="50" min="0" max="100" step="1" id="volume-slider" class="slider" name="music-volume">
+                    <p>Effect Volume</p>
+                    <input type="range" value="50" min="0" max="100" step="1" id="volume-slider2" class="slider" name="music-volume">
                     <br>
-                    <p>Toggle Background Music</p><br><button class="w-50 mx-auto" onclick="muteMusic()">ON</button>
+                    <div id="music-toggle">
+                        <p>Toggle Background Music</p><br><button class="w-50 mx-auto" onclick="muteMusic()">ON</button>
+                    </div>
                 </div>
             </div>
         </div>

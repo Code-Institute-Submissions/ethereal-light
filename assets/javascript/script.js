@@ -11,7 +11,13 @@ class AudioController {
         this.bgMusic.loop = true;
     }
     startMusic() {
-        this.bgMusic.play();
+        this.victorySound.pause();       
+        this.victorySound.currentTime = 0;      
+        this.gameOverSound.pause();     
+        this.gameOverSound.currentTime = 0;     
+        if (musicState == "on") {  
+            this.bgMusic.play();
+        }
     }
     stopMusic() {
         this.bgMusic.pause();
@@ -140,9 +146,9 @@ class MixOrMatch {
     }
 }
 
-let overlays = Array.from(document.getElementsByClassName('overlay-text')); //make this global
-let cards = Array.from(document.getElementsByClassName('card'));            //make this global
-let game = new MixOrMatch(100, cards);                                      //make this global
+let overlays = Array.from(document.getElementsByClassName('overlay-text')); 
+let cards = Array.from(document.getElementsByClassName('card'));            
+let game = new MixOrMatch(99, cards);                                      
 
 function ready() {
     overlays.forEach(overlay => {
@@ -205,15 +211,46 @@ function validate(contactForm){
 
 /*----------------------------------------------Audio Settings Modal*/
 
-var modal = document.getElementById("myModal2");        //get modal
-var audioSetting = document.getElementById("audio-settings");       //audio settings button
-var span = document.getElementsByClassName("close")[0];     //close icon that is inside the modal
+var modal = document.getElementById("myModal2");        
+var audioSetting = document.getElementById("audio-settings");       
+var span = document.getElementsByClassName("close")[0];     
 
-audioSetting.onclick = function() {                     //click the audio settings button to bring up the modal
+audioSetting.onclick = function() {                     
     modal.style.display = "block";
 }
 
-span.onclick = function() {                             //click the "X" button to close the modal
+span.onclick = function() {                             
     modal.style.display = "none";
 }
 
+
+/*----------------------------------------------Music Controls*/
+
+var musicToggle = document.getElementById('music-toggle');
+var musicState = "on";      //initial music state will be "on"
+
+function muteMusic(){
+    if (musicState == "off"){           
+        musicState = "on";
+        musicToggle.innerHTML = "<p>Toggle Background Music</p><br><button class=\"w-50 mx-auto\" onclick=\"muteMusic()\">ON</button>";                      
+        game.audioController.startMusic();
+    } else {
+        musicState = "off";             
+        musicToggle.innerHTML = "<p>Toggle Background Music</p><br><button class=\"w-50 mx-auto\" onclick=\"muteMusic()\">OFF</button>";                           
+        game.audioController.stopMusic();
+    }
+}
+
+//Volume control for background music --- taken from https://stackoverflow.com/questions/62160275/js-audio-volume-slider
+var volumeSlider = document.querySelector('#volume-slider'); 
+    volumeSlider.addEventListener('input', () => {     
+        game.audioController.bgMusic.volume = volumeSlider.valueAsNumber / 100;
+    });
+
+var volumeSlider2 = document.querySelector('#volume-slider2'); 
+    volumeSlider2.addEventListener('input', () => {    
+        game.audioController.flipSound.volume = volumeSlider2.valueAsNumber / 100;
+        game.audioController.matchSound.volume = volumeSlider2.valueAsNumber / 100;
+        game.audioController.victorySound.volume = volumeSlider2.valueAsNumber / 100;
+        game.audioController.gameOverSound.volume = volumeSlider2.valueAsNumber / 100;
+    });
