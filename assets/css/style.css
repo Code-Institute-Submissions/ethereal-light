@@ -178,6 +178,10 @@ body {
   width: 30%;
 }
 
+.modal-content a {
+    color: #FFDF00;
+}
+
 .game-title {
     font-family: "EB Garamond", sans-serif;
     letter-spacing: 1px;

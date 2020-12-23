@@ -1,5 +1,5 @@
 # [The Ethereal Light](url)
-![](./assets/readme/header_photo.png) 
+![](./assets/readme/ethereal-light-readme.png) 
 
 This is a website for the super popular MMORPG (Massive multiplayer online role playing game), Final Fantasy XIV. Players of all skill levels can join our helpful and friendly Free Company. 
 A Free Company is essentially a guild where players can come together and tackle all sorts of activities, be it beginner or expert levels of difficulty.
@@ -46,6 +46,12 @@ The site will help players with joining our Free Company by submitting a form wh
    2. [FFXIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/smartphone_ringtone/)
 
 - ## Testing
+  ### Testing - Form Submission
+    Testing was performed for the Form Submission to ensure that the form is filled out correctly and without empty fields.
+     - An error message appears where there is an empty entry in "InGame Name" field. 
+    ![](./assets/readme/valid-name.png) 
+    - An error message appears where there is less than 10 characters in the "Reasons To Join" field.
+    ![](./assets/readme/valid-reasons.png) 
 
 - ## Deployment
 
