@@ -195,7 +195,7 @@ function validate(contactForm){
     emailjs.send('gmail', 'template', {
         "from_name": contactForm.name.value,
         "message": contactForm.message.value
-    })
+    });
     alert("Form Submitted Successfully!")
     .then(
         function(response) {
@@ -217,11 +217,11 @@ var span = document.getElementsByClassName("close")[0];
 
 audioSetting.onclick = function() {                     
     modal.style.display = "block";
-}
+};
 
 span.onclick = function() {                             
     modal.style.display = "none";
-}
+};
 
 
 /*----------------------------------------------Music Controls*/

@@ -71,6 +71,14 @@ The site will help players with joining our Free Company by submitting a form wh
     ![](./assets/readme/music-control.png)
      - The volume sliders for the Background music and sound effects are working correctly. Toggling the 
      background music on or off also works as intended.
+  ### Matching Game Card
+     - Clicking start will start the quiz.
+    ![](./assets/readme/quiz-start.png)
+     - when a player clicks an answer, the correct and wrong answers will be shown where green is 
+     correct and red is incorrect.
+     ![](./assets/readme/question.png)
+     ![](./assets/readme/answer.png)
+     - Clicking "Next" will move onto the next question.
 
 - ## Deployment
 
