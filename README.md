@@ -22,7 +22,7 @@ The site will help players with joining our Free Company by submitting a form wh
       3. Open Sans Condensed as the normal font.
       4. Sans Serif will be the fall back font if all fonts don't work.
    - ### Wireframe
-      1. *[Desktop and Mobile Wireframe](./assets/readme/wireframe.pdf) need to upload wireframe*
+      1. [Desktop and Mobile Wireframe](./assets/readme/ethereal_light.pdf)
       2. Tablet is the same as Desktop version.
 
 - ## Technologies Used
@@ -46,6 +46,9 @@ The site will help players with joining our Free Company by submitting a form wh
    2. [FFXIV Fan Kit](https://na.finalfantasyxiv.com/lodestone/special/fankit/smartphone_ringtone/)
 
 - ## Testing
+     1. Tested HTML code via [W3C Markup Validator](https://validator.w3.org/) and results show 1 warning where "The type attribute is unnecessary for JavaScript resources." was not necessary, I decided to keep this in as per the resource code.
+     2. Tested CSS via [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) and results show 1 warning about imported style sheets are not checked in direct input and file upload modes but it's not affecting the site. 
+
   ### Testing - Form Submission
     Testing was performed for the Form Submission to ensure that the form is filled out correctly and without empty fields.
      - An error message appears where there is an empty entry in "InGame Name" field. 
@@ -73,14 +76,43 @@ The site will help players with joining our Free Company by submitting a form wh
      background music on or off also works as intended.
   ### Matching Game Card
      - Clicking start will start the quiz.
-    ![](./assets/readme/quiz-start.png)
+     ![](./assets/readme/quiz-start.png)
      - when a player clicks an answer, the correct and wrong answers will be shown where green is 
      correct and red is incorrect.
      ![](./assets/readme/question.png)
      ![](./assets/readme/answer.png)
      - Clicking "Next" will move onto the next question.
 
+  ### As a visitor and user of the site, I wish to:
+    Find out what the FC can provide.
+     - The user can read all about the Free Company on the home page where it details activities such as 
+     Guild exclusive events/challenges, Glamour contests, game content farming and much more. It also 
+     mentions that the FC is friendly and helpful to all players.
+
+    Get to know the environment of this FC and if it is right for me.
+     - The user can see that the environment is an active, talkative and helpful group of players, 
+     particularly towards new players.
+
+    Send an application to join the FC.
+     - The home page has a section called "How to apply?" where the user can submit their in-game name and 
+     their reasons to join the Free Company.
+
+    Play a game while waiting during in-game queues.
+     - There are 2 games available on the site. A Card Matching game and a quiz.
+
+    Test my Final Fantasy XIV knowledge.
+     - The quiz will ask the player questions all about Final Fantasy XIV such as character classes, game 
+     content and more.
+
 - ## Deployment
+   - ### The project was deployed to GitHub Pages using the following steps.
+
+      1. Log into GitHub and locate the [GitHub Repository](https://github.com/Tanyapond/Geoskincare-Malaysia)
+      2. At the top of the page, locate the "Settings" button beside "Insights" button on the menu.
+      3. Scroll to the bottom until you notice the "GitHub Pages" section.
+      4. Under the "Source" dropdown button, choose "Master Branch".
+      5. Make sure the /roots folder is chosen too then click save and the page will automatically refresh.
+      6. Scroll back to the bottom of the page and locate the now published website on the "GitHub Pages" section.
 
 - ## Tutorials and Credits
    - ### Code
