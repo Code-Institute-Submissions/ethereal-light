@@ -1,22 +1,21 @@
 # [The Ethereal Light](url)
 ![](./assets/readme/header_photo.png) 
 
-This is a website for FinalFantasyXIV newcomer and casual gamer that is finding for a friendly and helpful FreeCompany, 
-we also do endgame stuff for the veteran gamer so we are an overall FreeCompany/Guild. We also have a matching game and quiz to play in the
-website so feel free to come and play! For people that doesn't know, FC means FreeCompany and it's the same as a guild in all other games.
+This is a website for the super popular MMORPG (Massive multiplayer online role playing game), Final Fantasy XIV. Players of all skill levels can join our helpful and friendly Free Company. 
+A Free Company is essentially a guild where players can come together and tackle all sorts of activities, be it beginner or expert levels of difficulty.
+The site will help players with joining our Free Company by submitting a form where there is also a card matching game and a quiz to play!
 
 - ## User Stories
    - ### Visitor 
-      1. To find out what can the FC provide.
-      2. To get to know what is the environment of this FC.
-      3. Send application to the FC.
-      4. Play a game while waiting.
-      5. Test how good is your FinalFantasyXIV knowledge.
-
+     As a visitor and user of the site, I wish to:
+      1. Find out what the FC can provide.
+      2. Get to know the environment of this FC and if it is right for me.
+      3. Send an application to join the FC.
+      4. Play a game while waiting during in-game queues.
+      5. Test my Final Fantasy XIV knowledge.
 - ## Design
    - ### Color Theme
-      The two main colours used are Black and White.
-      The LIGHT words colours used yellow to highlight it.
+      The two main colours used are Black for the background and White for the font. The "LIGHT" word is yellow as to highlight it.
    - ### Font
       1. EB Garamond as the main heading choices.
       2. Playfair Display as the second heading.
@@ -34,9 +33,9 @@ website so feel free to come and play! For people that doesn't know, FC means Fr
 
    - ### Frameworks, Libraries & Programs Used
       1. [Bootstrap v4.5.2](https://getbootstrap.com/) (Responsiveness and styling of the website.)
-      2. [Google Fonts](https://fonts.google.com/) ('Lobster' and 'Montserrat' were used on all pages in this project.)
+      2. [Google Fonts](https://fonts.google.com/)  (Used to obtain my fonts.)
       3. [Font Awesome v5.14.0](https://fontawesome.com/) (Used on all pages to add icon for aesthetic and UX purposes.)
-      4. [GitPod](https://www.gitpod.io/) (Used terminal to git commit and git push to GitHub.)
+      4. [GitPod](https://www.gitpod.io/) (Used terminal to git commit and git push to GitHub. Also used for version control.)
       5. [GitHub](https://github.com/) (Store projects after being pushed from Gitpod.)
       6. [Balsamiq](https://balsamiq.com/) (Used to design the layout of the website.)
       7. [PicResize](https://picresize.com/) (Used for resizing images that are too large.)
@@ -57,9 +56,11 @@ website so feel free to come and play! For people that doesn't know, FC means Fr
       3. [Youtube - 'Web Dev Simplified'](https://www.youtube.com/watch?v=28VfzEiJgy4&t=6s&ab_channel=WebDevSimplified) Card Matching Game
       4. [Youtube - 'Web Dev Simplified'](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1048s&ab_channel=WebDevSimplified) Quiz
       5. [Youtube - 'Coding Market'](https://www.youtube.com/watch?v=WY4rvU4ImgE&ab_channel=CodingMarket) Form
+      6. [stackoverflow](https://stackoverflow.com/questions/62160275/js-audio-volume-slider) Volume Slider
    - ### Content
       [Quiz](http://www.quiz.co.uk/index.php/quiz-categories/sports-games/180-final-fantasy-xiv-quiz) For the quiz question.
    - ### Media
       [Fandom](https://finalfantasy.fandom.com/wiki/Astrologian_(Final_Fantasy_XIV)) For the astrologian card matching game image.
+      The images and in-game screenshots were taken and edited by myself.
 
 - ## Acknowledgements
