@@ -52,6 +52,25 @@ The site will help players with joining our Free Company by submitting a form wh
     ![](./assets/readme/valid-name.png) 
     - An error message appears where there is less than 10 characters in the "Reasons To Join" field.
     ![](./assets/readme/valid-reasons.png) 
+  ### Matching Game Card
+     - The timer starts at 100 and decreases by 1 each second. Each time a card is flipped, the flip counter increases by 1 per flip.
+     - When first entering the Card Matching page, there is a popup to describe how to play the game. Clicking 
+        anywhere on the screen will remove this popup and the game will start, as well with the music.
+    ![](./assets/readme/starting.png)
+     - Where there is a mismatch of cards, the cards will automatically be turned facing down.
+    ![](./assets/readme/wrong-card.png)
+     - Where there are correctly paired cards, they will stay facing up.
+    ![](./assets/readme/same-card.png)
+     - (Victory Overlay) When all cards are correctly paired, the user is asked if they would like to try the quiz.
+    ![](./assets/readme/won.png)
+     - (Overlay Game Over) When the timer reaches zero, the Game Over overlay appears. When the user clicks 
+     anywhere on the screen, the game will restart with the Time back at 100 and Flips back to 0.
+    ![](./assets/readme/game-over.png)
+
+    Audio Control
+    ![](./assets/readme/music-control.png)
+     - The volume sliders for the Background music and sound effects are working correctly. Toggling the 
+     background music on or off also works as intended.
 
 - ## Deployment
 
