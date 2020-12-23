@@ -48,6 +48,7 @@ The site will help players with joining our Free Company by submitting a form wh
 - ## Testing
      1. Tested HTML code via [W3C Markup Validator](https://validator.w3.org/) and results show 1 warning where "The type attribute is unnecessary for JavaScript resources." was not necessary, I decided to keep this in as per the resource code.
      2. Tested CSS via [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) and results show 1 warning about imported style sheets are not checked in direct input and file upload modes but it's not affecting the site. 
+     3. Tested Javascript via [JSHint](https://jshint.com/) there were no issue found.
 
   ### Testing - Form Submission
     Testing was performed for the Form Submission to ensure that the form is filled out correctly and without empty fields.
