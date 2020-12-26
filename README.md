@@ -25,6 +25,31 @@ The site will help players with joining our Free Company by submitting a form wh
       1. [Desktop and Mobile Wireframe](./assets/readme/ethereal_light.pdf)
       2. Tablet is the same as Desktop version.
 
+- ## Features and Functionality
+   - ### Submission Form
+       The submission form is used for the application to join the Free Company.
+       The user will have to submit their InGame Name and their reason to join.
+       The form may not be submitted if the InGame Name is blank and if there are less than 10 characters in the Reason to Join fields.
+       This form is linked to my own email where I will be notified of an application.
+
+   - ### Card Game
+       This game will is a basic pair matching game. 
+       There are a total of 12 cards, 6 unique Astrologian cards.
+       The player has 100 seconds to match all 6 pairs.
+       There is a "Flip" counter to show how many times a player has flipped a card.
+       When the player has successfully matched all cards, an overlay will appear as well as a victory sound to let the player know.
+       If the time limit reaches zero, an overlay will appear to show that the player has failed the game.
+       Each of these overlays have the ability to replay the game when they click anywhere on the screen.
+       There is background music that starts to play when the user clicks "start".
+       A modal for Audio Settings is available to adjust the volume of both music and sound effects. The music can also be turned off completely.
+
+   - ### Quiz
+       There are a total of 4 questions related to Final Fantasy XIV.
+       Each question is a multiple choice with 4 choices.
+       When the player has clicked their answer, all the wrong answers will be in red and the correct answer will be in green.
+       Once the final question is answered, there is a replay button to start the quiz from the beginning.
+
+
 - ## Technologies Used
    - ### Languages
       1. [HTML](https://en.wikipedia.org/wiki/HTML)
