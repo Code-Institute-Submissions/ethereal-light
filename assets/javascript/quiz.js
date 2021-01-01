@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*---------------------------------------------------------------------Tutorial from Youtube - 'Web Dev Simplified'*/
 /*---------------------------------------------------------------------Quiz*/
 const startButton = document.getElementById('start-btn');

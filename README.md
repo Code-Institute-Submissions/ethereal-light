@@ -1,4 +1,4 @@
-# [The Ethereal Light](url)
+# [The Ethereal Light](https://tanyapond.github.io/ethereal-light/)
 ![](./assets/readme/ethereal-light-readme.png) 
 
 This is a website for the super popular MMORPG (Massive multiplayer online role playing game), Final Fantasy XIV. Players of all skill levels can join our helpful and friendly Free Company. 
@@ -155,3 +155,5 @@ The site will help players with joining our Free Company by submitting a form wh
       The images and in-game screenshots were taken and edited by myself.
 
 - ## Acknowledgements
+    I want to thank Code Institute for the teaching program, my boyfriend for helping me with the grammer 
+    and my mentor, Cans for guiding me and being patient with me throughout the project, Thank You.

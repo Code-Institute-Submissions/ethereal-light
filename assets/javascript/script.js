@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /*---------------------------------------------------------------------Tutorial from Youtube - 'Web Dev Simplified' Card Matching Game*/
 /*---------------------------------------------------------------------Game BGM*/
 class AudioController {
