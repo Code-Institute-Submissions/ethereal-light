@@ -33,7 +33,7 @@ The site will help players with joining our Free Company by submitting a form wh
        This form is linked to my own email where I will be notified of an application.
 
    - ### Card Game
-       This game will is a basic pair matching game. 
+       This game is a basic pair matching game. 
        There are a total of 12 cards, 6 unique Astrologian cards.
        The player has 100 seconds to match all 6 pairs.
        There is a "Flip" counter to show how many times a player has flipped a card.
@@ -112,26 +112,33 @@ The site will help players with joining our Free Company by submitting a form wh
      ![](./assets/readme/answer.png)
      - Clicking "Next" will move onto the next question.
 
-  ### As a visitor and user of the site, I wish to:
-    Find out what the FC can provide.
-     - The user can read all about the Free Company on the home page where it details activities such as 
-     Guild exclusive events/challenges, Glamour contests, game content farming and much more. It also 
-     mentions that the FC is friendly and helpful to all players.
+- ## TestingTesting User Stories from User Experience (UX) Section
+    As a visitor and user of the site, I wish to:
 
-    Get to know the environment of this FC and if it is right for me.
-     - The user can see that the environment is an active, talkative and helpful group of players, 
-     particularly towards new players.
+  - Find out what the FC can provide.
 
-    Send an application to join the FC.
-     - The home page has a section called "How to apply?" where the user can submit their in-game name and 
-     their reasons to join the Free Company.
+    The user can read all about the Free Company on the home page where it details activities such as 
+    Guild exclusive events/challenges, Glamour contests, game content farming and much more. It also 
+    mentions that the FC is friendly and helpful to all players.
 
-    Play a game while waiting during in-game queues.
-     - There are 2 games available on the site. A Card Matching game and a quiz.
+  - Get to know the environment of this FC and if it is right for me.
 
-    Test my Final Fantasy XIV knowledge.
-     - The quiz will ask the player questions all about Final Fantasy XIV such as character classes, game 
-     content and more.
+    The user can see that the environment is an active, talkative and helpful group of players, 
+    particularly towards new players.
+
+  - Send an application to join the FC.
+
+    The home page has a section called "How to apply?" where the user can submit their in-game name and 
+    their reasons to join the Free Company.
+
+  - Play a game while waiting during in-game queues.
+
+    There are 2 games available on the site. A Card Matching game and a quiz.
+
+  - Test my Final Fantasy XIV knowledge.
+  
+    The quiz will ask the player questions all about Final Fantasy XIV such as character classes, game 
+    content and more.
 
 - ## Deployment
    - ### The project was deployed to GitHub Pages using the following steps.
@@ -159,5 +166,5 @@ The site will help players with joining our Free Company by submitting a form wh
       The images and in-game screenshots were taken and edited by myself.
 
 - ## Acknowledgements
-    I want to thank Code Institute for the teaching program, my boyfriend for helping me with the grammer 
-    and my mentor, Cans for guiding me and being patient with me throughout the project, Thank You.
+    I want to thank Code Institute for the teaching program and my mentor, Cans for guiding me and being patient with me throughout the 
+    project, Thank You.
