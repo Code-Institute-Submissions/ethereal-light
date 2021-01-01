@@ -73,7 +73,10 @@ The site will help players with joining our Free Company by submitting a form wh
 - ## Testing
      1. Tested HTML code via [W3C Markup Validator](https://validator.w3.org/) and results show 1 warning where "The type attribute is unnecessary for JavaScript resources." was not necessary, I decided to keep this in as per the resource code.
      2. Tested CSS via [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) and results show 1 warning about imported style sheets are not checked in direct input and file upload modes but it's not affecting the site. 
-     3. Tested Javascript via [JSHint](https://jshint.com/) there were no issue found.
+     3. Tested Javascript via [JSHint](https://jshint.com/) there were issues about ES6 version but I've fixed it with jshint esversion code.
+     4. The Website was tested on Google Chrome and Firefox and there are no errors.
+     5. The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 7, 8 & X and there are no errors.
+     6. A large amount of testing was done to ensure all pages and javascript were working correctly.
 
   ### Testing - Form Submission
     Testing was performed for the Form Submission to ensure that the form is filled out correctly and without empty fields.
@@ -148,6 +151,7 @@ The site will help players with joining our Free Company by submitting a form wh
       4. [Youtube - 'Web Dev Simplified'](https://www.youtube.com/watch?v=riDzcEQbX6k&t=1048s&ab_channel=WebDevSimplified) Quiz
       5. [Youtube - 'Coding Market'](https://www.youtube.com/watch?v=WY4rvU4ImgE&ab_channel=CodingMarket) Form
       6. [stackoverflow](https://stackoverflow.com/questions/62160275/js-audio-volume-slider) Volume Slider
+      7. [stackoverflow](https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6) Jshint Esversion code
    - ### Content
       [Quiz](http://www.quiz.co.uk/index.php/quiz-categories/sports-games/180-final-fantasy-xiv-quiz) For the quiz question.
    - ### Media
